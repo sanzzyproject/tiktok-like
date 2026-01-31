@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free TikTok Likes</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>TikTok Booster</h1>
+            <p>Dapatkan likes gratis menggunakan LeoFame API</p>
+        </header>
+
+        <main>
+            <div class="card">
+                <form id="likeForm">
+                    <div class="input-group">
+                        <label for="url">Video URL</label>
+                        <input type="url" id="url" placeholder="https://vt.tiktok.com/..." required autocomplete="off">
+                    </div>
+                    
+                    <button type="submit" id="submitBtn">
+                        <span class="btn-text">Kirim Likes</span>
+                        <div class="loader" id="loader"></div>
+                    </button>
+                </form>
+
+                <div id="resultArea" class="result hidden">
+                    <h3>Status</h3>
+                    <pre id="output"></pre>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Tools for educational purpose only.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
